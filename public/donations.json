@@ -1,0 +1,134 @@
+[
+    {
+        "id": "1",
+        "picture": "https://i.ibb.co/wNZnmYx/Rectangle-4284.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg_color": "#0052FF33",
+        "card_bg_color": "#0052FF26",
+        "text_button_bg_color": "#0052FF",
+        "description": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity. The enjoyment of the highest attainable standard of health is one of the fundamental rights of every human being without distinction of race, religion, political belief, economic or social condition.",
+        "price": 199.99
+    },
+    {
+        "id": "2",
+        "picture": "https://i.ibb.co/QfL24vR/Rectangle-4288.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "#FF444E33",
+        "card_bg_color": "#FF444E26",
+        "text_button_bg_color": "#d35400",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": 299.99
+    },
+    {
+        "id": "3",
+        "picture": "https://i.ibb.co/3s4sQK1/Rectangle-4287.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F33",
+        "card_bg_color": "#79C23F26",
+        "text_button_bg_color": "#79C23F",
+        "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive.",
+        "price": 249.99
+    },
+    {
+        "id": "4",
+        "picture": "https://i.ibb.co/VQPW0D0/Rectangle-4287-2.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#F8714733",
+        "card_bg_color": "#FF444E26",
+        "text_button_bg_color": "#F87147",
+        "description": "Everyone has a right to healthy and affordable food. Good food for all means ensuring that people experiencing financial crisis or food poverty can access and afford a healthy diet.",
+        "price": 399.99
+    },
+    {
+        "id": "5",
+        "picture": "https://i.ibb.co/VQPW0D0/Rectangle-4287-2.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#F8714733",
+        "card_bg_color": "#FF444E26",
+        "text_button_bg_color": "#F87147",
+        "description": "Everyone has a right to healthy and affordable food. Good food for all means ensuring that people experiencing financial crisis or food poverty can access and afford a healthy diet.",
+        "price": 399.99
+    },
+    {
+        "id": "6",
+        "picture": "https://i.ibb.co/3s4sQK1/Rectangle-4287.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F33",
+        "card_bg_color": "#79C23F26",
+        "text_button_bg_color": "#79C23F",
+        "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive.",
+        "price": 249.99
+    },
+    {
+        "id": "7",
+        "picture": "https://i.ibb.co/QfL24vR/Rectangle-4288.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "#FF444E33",
+        "card_bg_color": "#FF444E26",
+        "text_button_bg_color": "#d35400",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": 299.99
+    },
+    {
+        "id": "8",
+        "picture": "https://i.ibb.co/wNZnmYx/Rectangle-4284.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg_color": "#0052FF33",
+        "card_bg_color": "#0052FF26",
+        "text_button_bg_color": "#0052FF",
+        "description": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity. The enjoyment of the highest attainable standard of health is one of the fundamental rights of every human being without distinction of race, religion, political belief, economic or social condition.",
+        "price": 199.99
+    },
+    {
+        "id": "9",
+        "picture": "https://i.ibb.co/wNZnmYx/Rectangle-4284.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg_color": "#0052FF33",
+        "card_bg_color": "#0052FF26",
+        "text_button_bg_color": "#0052FF",
+        "description": "Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity. The enjoyment of the highest attainable standard of health is one of the fundamental rights of every human being without distinction of race, religion, political belief, economic or social condition.",
+        "price": 199.99
+    },
+    {
+        "id": "10",
+        "picture": "https://i.ibb.co/QfL24vR/Rectangle-4288.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "#FF444E33",
+        "card_bg_color": "#FF444E26",
+        "text_button_bg_color": "#d35400",
+        "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "price": 299.99
+    },
+    {
+        "id": "11",
+        "picture": "https://i.ibb.co/3s4sQK1/Rectangle-4287.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#79C23F33",
+        "card_bg_color": "#79C23F26",
+        "text_button_bg_color": "#79C23F",
+        "description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive.",
+        "price": 249.99
+    },
+    {
+        "id": "12",
+        "picture": "https://i.ibb.co/VQPW0D0/Rectangle-4287-2.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#F8714733",
+        "card_bg_color": "#FF444E26",
+        "text_button_bg_color": "#F87147",
+        "description": "Everyone has a right to healthy and affordable food. Good food for all means ensuring that people experiencing financial crisis or food poverty can access and afford a healthy diet.",
+        "price": 399.99
+    }
+]
