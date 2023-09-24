@@ -1,8 +1,9 @@
+import React from 'react';
 
 const Statistics = () => {
     return (
         <div>
-            <h2 className="text-4xl">This is Statistics page</h2>
+            <h2 className="text-4xl">This is Statistics Page</h2>
         </div>
     );
 };

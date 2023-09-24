@@ -8,7 +8,6 @@ const DonationCard = ({ donation }) => {
     category_bg_color,
     card_bg_color,
     text_button_bg_color,
-    price,
   } = donation;
   const card_bg = {
     backgroundColor: card_bg_color, 
