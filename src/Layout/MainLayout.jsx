@@ -1,10 +1,11 @@
 import { Outlet } from "react-router-dom";
+import Nav from "../Components/Header/Nav/Nav";
 
 
 const MainLayout = () => {
     return (
-        <div>
-            <h1 className="text-5xl">Hello world</h1>
+        <div className="container mx-auto px-4 md:px-12 py-3 md:py-6">
+            <Nav></Nav>
             <Outlet></Outlet>
         </div>
     );

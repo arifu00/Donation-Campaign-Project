@@ -3,6 +3,9 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainLayout from "./Layout/MainLayout";
+import Home from "./Pages/Home/Home";
+import Donation from "./Pages/Donation/Donation";
+import Statistics from "./Pages/Statistics/Statistics";
 
 const router = createBrowserRouter([
   {
@@ -11,7 +14,15 @@ const router = createBrowserRouter([
     children:[
       {
         path: '/',
-        element:<div className="text-5xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt illo architecto praesentium eos eum perspiciatis placeat ut earum voluptatem sit.</div>,
+        element:<Home></Home>,
+      },
+      {
+        path: '/donation',
+        element: <Donation></Donation>,
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>,
       },
     ],
   },
