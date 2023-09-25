@@ -42,14 +42,14 @@ const DonationCard = ({ donation }) => {
               >
                 {category}
             </h6>
-            <h4 className="mb-2 block  text-2xl font-semibold leading-snug " style={title_Color}>
+            <h4 className="mb-2 block text-lg md:text-2xl font-semibold leading-snug " style={title_Color}>
               {title}
             </h4>
             <p className="mb-2 block text-base font-semibold">
               ${price}
             </p>
             <Link>
-              <button className="rounded-lg text-lg font-semibold text-white px-4 py-3" style={btn_bg}>View Details</button>
+              <button className="rounded-lg text-sm md:text-lg font-normal md:font-semibold text-white px-4 py-3" style={btn_bg}>View Details</button>
             </Link>
           </div>
         </div>
