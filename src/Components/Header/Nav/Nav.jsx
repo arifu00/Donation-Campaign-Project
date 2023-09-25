@@ -10,7 +10,7 @@ const Nav = () => {
           <img src={logo} alt="" />
         </div>
         <div className="">
-          <ul className="md:flex gap-4 text-lg font-bold text-center">
+          <ul className="flex mt-5 justify-center gap-4 text-lg font-bold text-center">
             <li>
               <NavLink
                 to="/"

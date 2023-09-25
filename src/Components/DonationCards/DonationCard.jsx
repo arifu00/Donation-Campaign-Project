@@ -22,7 +22,7 @@ const DonationCard = ({ donation }) => {
   return (
     <div>
       <div className="">
-        <Link to={`/donation/${id}`}>
+        <Link to={`/donations/${id}`}>
           <div className="card bg-base-100 shadow-xl">
             <figure>
               <img className="h-64" src={picture} alt={category} />
