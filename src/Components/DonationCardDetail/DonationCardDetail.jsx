@@ -11,6 +11,7 @@ const DonationCardDetail = () => {
     const findDonation = donations.find((donation) => donation.id === id);
     setDonation(findDonation);
   }, [id, donations]);
+  
 
   //   console.log(donation);
 

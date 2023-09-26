@@ -1,4 +1,4 @@
-import banner from "./banner.png";
+import banner from "./banner.jpg";
 const Banner = () => {
   return (
     <div>
