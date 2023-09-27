@@ -2,13 +2,13 @@
 import banner from "./banner.jpg";
 // import DonationCard from "../../DonationCards/DonationCard";
 
-const Banner = ({ donations, setSearch }) => {
+const Banner = ({  setSearch }) => {
   
 
   const handleSubmit = (e) => {
     e.preventDefault();
      setSearch (e.target.searchBox.value)
-   
+    e.target.searchBox.value =''
   };
 
 

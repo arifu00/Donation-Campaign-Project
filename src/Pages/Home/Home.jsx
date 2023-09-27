@@ -2,6 +2,7 @@ import { useLoaderData } from "react-router-dom";
 import DonationCards from "../../Components/DonationCards/DonationCards";
 import Banner from "../../Components/Header/Banner/Banner";
 import { useEffect, useState } from "react";
+import swal from "sweetalert";
 
 const Home = () => {
   const donations = useLoaderData();
@@ -11,7 +12,7 @@ const Home = () => {
   const [searchResults, setSearchResults] = useState([]);
   // console.log(search);
   useEffect(() => {
-    if (search === null) {
+    if (search === null || search == '') {
       setSearchResults(donations);
       // console.log(searchResults);
     }
@@ -30,6 +31,11 @@ const Home = () => {
     else if(search === 'Health' || search === 'health'){
       setSearchResults(donations.filter(item => item.category === 'Health')) 
       
+    }
+    else {
+      // Handle other cases or invalid input here
+      // For example, display an error SweetAlert
+      swal("OOPS!", "Please search by a valid category name.!!", "error");
     }
 
   }, [donations, search]);
