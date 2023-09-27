@@ -24,7 +24,7 @@ const DonationCard = ({ donation }) => {
     <div>
       <div className="">
         <Link to={`/donations/${id}`}>
-          <div className="card bg-base-100 shadow-xl">
+          <div className="card h-[400px] bg-base-100 shadow-xl">
             <figure>
               <img className="h-64" src={picture} alt={category} />
             </figure>

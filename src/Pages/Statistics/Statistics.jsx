@@ -17,17 +17,31 @@ const Statistics = () => {
     }
   }, []);
   //   console.log(donationData.length);
+  
+
+  const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }) => {
+    // Calculate label position
+    const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+    const x = cx + radius * Math.cos(-midAngle * (Math.PI / 180));
+    const y = cy + radius * Math.sin(-midAngle * (Math.PI / 180));
+
+    // Format the label text
+    const labelText = `${(percent * 100).toFixed(2)}%`;
+
+    return (
+      <text x={x} y={y} fill="white" textAnchor="middle" dominantBaseline="central">
+        {labelText}
+      </text>
+    );
+  };
 
   // Calculate percentages
-  const donateCalculate = (donationData.length / donations.length) * 100;
-  const totalDonationCalculate = 100 - donateCalculate;
-
-  console.log(donateCalculate.toFixed(2));
-  console.log(totalDonationCalculate.toFixed(2));
+  const donateCalculate = ((donationData.length / donations.length) * 100);
+  const totalDonationCalculate = (100 - donateCalculate);
   // Data for Pie Chart
   const pieChartData = [
-    { name: "Donations from API", value: donateCalculate },
-    { name: "Donations from Local Storage", value: totalDonationCalculate },
+    { name: "Total Donations ", value: donateCalculate },
+    { name: "Your Donation", value: totalDonationCalculate },
   ];
 
   const COLORS = ["#00C49F", "#FF444A"];
@@ -42,11 +56,13 @@ const Statistics = () => {
             nameKey="name"
             cx="50%"
             cy="50%"
-            outerRadius={80}
+            outerRadius={100}
             fill="#8884d8"
-            label
+            
+            labelLine={false}
+            label={renderCustomizedLabel}
           >
-            {pieChartData.map((entry, index) => (
+             {pieChartData.map((entry, index) => (
               <Cell key={`cell-${index}`} fill={COLORS[index]} />
             ))}
           </Pie>
