@@ -1,18 +1,16 @@
-// import { useState } from "react";
+import { useRef } from "react";
 import banner from "./banner.jpg";
-// import DonationCard from "../../DonationCards/DonationCard";
 
-const Banner = ({ donations, setSearch }) => {
-  
 
-  const handleSubmit = (e) => {
+const Banner = ({donations}) => {
+  // console.log(donations);
+  donations.map(donation => (donation.category));
+
+  const searchRef = useRef(null);
+  const handleSubmit = (e)=>{
     e.preventDefault();
-     setSearch (e.target.searchBox.value)
-   
-  };
-
-
-
+    console.log(searchRef.current.value);
+  }
   return (
     <div>
       <div
@@ -32,17 +30,14 @@ const Banner = ({ donations, setSearch }) => {
                 <input
                   className="rounded-tl-lg rounded-bl-lg w-[180px] md:w-[250px] py-3 px-3 text-[#0B0B0B66]"
                   type="text"
-                  name="searchBox"
+                  name="search"
+                  ref={searchRef}
                   placeholder="Search here..."
                 />
-                <button
-                  type="submit"
-                  className="bg-[#FF444A] px-6 py-3 rounded-tr-lg rounded-br-lg hover:bg-lime-400 text-white hover:text-black"
-                >
+                <button className="bg-[#FF444A] px-6 py-3 rounded-tr-lg rounded-br-lg hover:bg-lime-400 text-white hover:text-black">
                   Search
                 </button>
               </form>
-             
             </div>
           </div>
         </div>
